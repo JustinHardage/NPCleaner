@@ -9,7 +9,9 @@ public class Room : MonoBehaviour
     public Cinemachine.CinemachineVirtualCamera _vcam;
     public bool _shouldShutPlayerIn = false;
     public RoomState _roomState = RoomState.ACTIVE;
+    public float _startingTime = 0f;
 
+    float _remainingTime;
     bool _doorsClosed = false;
     Door[] _doors;
 
