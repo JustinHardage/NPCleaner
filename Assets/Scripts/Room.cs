@@ -17,7 +17,17 @@ public class Room : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
+    }
+
+    void CloseExits()
+    {
+
+    }
+
+    void OpenExits()
+    {
+
     }
 
     private void OnTriggerStay2D(Collider2D collider)
@@ -38,4 +48,6 @@ public class Room : MonoBehaviour
 
         vcam.Follow = player.transform;
     }
+
+
 }
