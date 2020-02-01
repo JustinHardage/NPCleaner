@@ -14,9 +14,9 @@ public class Topdownmovement : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         Vector2 targetVel = (new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")));
-        rb2d.velocity = (targetVel * speed);
+        rb2d.velocity = targetVel * speed * Time.deltaTime;
     }
 }
