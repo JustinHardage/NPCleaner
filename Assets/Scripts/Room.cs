@@ -1,17 +1,20 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Room : MonoBehaviour
 {
     public enum RoomState { DEFAULT, ACTIVE, SOLVED };
 
     public Cinemachine.CinemachineVirtualCamera _vcam;
+    public Text _timerText;
+
     public bool _shouldShutPlayerIn = false;
     public RoomState _roomState = RoomState.ACTIVE;
     public float _startingTime = 0f;
 
-    float _remainingTime;
+    public float _remainingTime;
     bool _doorsClosed = false;
     Door[] _doors;
 
@@ -27,19 +30,47 @@ public class Room : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
-
+        TickDown();
     }
+
+    private void TickDown()
+    {
+        if (WorldManager.Instance._currentRoom != this) { return; }
+        if (_roomState == RoomState.SOLVED) { return; }
+        if (_startingTime <= 0f) { return; }
+        if (_remainingTime > 0f)
+        {
+            _remainingTime -= Time.deltaTime;
+        }
+        else
+        {
+            // time up, end game? restart room?
+            WorldManager.Instance.TimeOver(this);
+        }
+    }
+
 
     public void PlayerIsIn()
     {
+        StartRoom();
+    }
+
+    public void StartRoom()
+    {
+        WorldManager.Instance._currentRoom = this;
+
         if (ShouldClosePlayerIn)
         {
             CloseExits();
         }
 
         // Initialize room; check if we should start any traps or activate enemies
+        if (_roomState == RoomState.ACTIVE && _startingTime > 0f)
+        {
+            _remainingTime = _startingTime;
+        }
     }
 
     void CloseExits()
@@ -66,6 +97,18 @@ public class Room : MonoBehaviour
         }
 
         _roomState = state;
+    }
+
+    public string TimerReadout()
+    {
+        if (_startingTime == 0f || _roomState == RoomState.SOLVED) {
+            return "Solved";
+        }
+        else if (_remainingTime > 0f)
+        {
+            return _remainingTime.ToString("00");
+        }
+        else { return "oh nooo"; }
     }
 
     private void OnTriggerStay2D(Collider2D collider)

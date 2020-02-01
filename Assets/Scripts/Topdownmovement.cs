@@ -5,7 +5,6 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D))]
 public class Topdownmovement : MonoBehaviour
 {
-
 	public GameObject[] items;
     public Rigidbody2D rb2d;
 	private float baseSpeed;
