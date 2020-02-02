@@ -6,6 +6,12 @@ TagManager:
   tags:
   - Ground
   - Grabbable
+  - Door
+  - Pushable
+  - Water
+  - StartTrigger
+  - EndTrigger
+  - waterEnd
   layers:
   - Default
   - TransparentFX
@@ -18,13 +24,13 @@ TagManager:
   - Room
   - Player
   - Terrain
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - bridge
+  - water
+  - floating
+  - waterTrigger
+  - waterEnd
+  - Bookshelf
+  - Button
   - 
   - 
   - 

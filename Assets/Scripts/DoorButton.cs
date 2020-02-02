@@ -6,6 +6,7 @@ public class DoorButton : MonoBehaviour
 {
     public Room parentRoom;
     public bool hasBeenPressed;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -24,6 +25,16 @@ public class DoorButton : MonoBehaviour
         if (hasBeenPressed) { return; }
 
         hasBeenPressed = true;
-        parentRoom.SetRoomState(Room.RoomState.SOLVED);
+        parentRoom.roomButtons += 1;
+        if (parentRoom.roomButtons == parentRoom.maxRoomButtons)
+            parentRoom.SetRoomState(Room.RoomState.SOLVED);
+    }
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (parentRoom.maxRoomButtons > 1)
+        {
+            hasBeenPressed = false;
+            parentRoom.roomButtons -= 1;
+        }
     }
 }

@@ -10,9 +10,11 @@ public class BridgePhysics : MonoBehaviour {
 	public GameObject baseWater;
 	public GameObject solvedWater;
 
+    public Room parentRoom;
 
-	// Use this for initialization
-	void Start () {
+
+    // Use this for initialization
+    void Start () {
 		
 	}
 	
@@ -22,7 +24,8 @@ public class BridgePhysics : MonoBehaviour {
 		{
 			baseWater.SetActive (false);
 			solvedWater.SetActive (true);
-		}
+            parentRoom.SetRoomState(Room.RoomState.SOLVED);
+        }
 			
 
 	}

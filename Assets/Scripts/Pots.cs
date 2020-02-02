@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class Pots : MonoBehaviour {
 
-	public bool floating = false;
+    public Room parentRoom;
+    public bool floating = false;
 	public bool isBridge = false;
 
 	public void OnCollisionEnter2D(Collision2D col)
@@ -12,13 +13,13 @@ public class Pots : MonoBehaviour {
 		
 		if (col.gameObject.CompareTag ("Water")) 
 		{
-			
+            Debug.Log("aye");
 			floating = true;
 			this.gameObject.layer = 13;
 			this.gameObject.transform.SetParent (null);
 			this.gameObject.AddComponent<Rigidbody2D> ();
 			this.gameObject.GetComponent<Rigidbody2D> ().gravityScale = 0;
-			this.gameObject.GetComponent<Rigidbody2D> ().AddForce (transform.forward * 40); 
+			this.gameObject.GetComponent<Rigidbody2D> ().AddForce (transform.forward * 400); 
 
 
 		}
@@ -43,6 +44,16 @@ public class Pots : MonoBehaviour {
 			BridgePhysics.endTriggered = true;
 
 	}
+
+    public void defaultState()
+    {
+        this.gameObject.layer = 9;
+        this.gameObject.transform.SetParent(null);
+        Destroy(this.gameObject.GetComponent<Rigidbody2D>());
+        //this.gameObject.GetComponent<Rigidbody2D>().gravityScale = 0;
+       // this.gameObject.GetComponent<Rigidbody2D>().AddForce(transform.forward * 400);
+
+    }
 
 
 }

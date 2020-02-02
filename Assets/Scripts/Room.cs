@@ -14,6 +14,9 @@ public class Room : MonoBehaviour
     public RoomState _roomState = RoomState.ACTIVE;
     public float _startingTime = 0f;
 
+    public int roomButtons;
+    public int maxRoomButtons;
+
     public float _remainingTime;
     bool _doorsClosed = false;
     Door[] _doors;
