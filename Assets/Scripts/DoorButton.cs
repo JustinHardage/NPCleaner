@@ -35,7 +35,7 @@ public class DoorButton : MonoBehaviour
     {
         cols -= 1;
 
-        if (cols == 0)
+        if (cols <= 0)
         {
             if (parentRoom.maxRoomButtons > 1)
             {
