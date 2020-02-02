@@ -8,6 +8,7 @@ public class NPC : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        Debug.Log("Enter");
         WorldManager.Instance.TextPopUp(dialog);
     }
 
