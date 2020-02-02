@@ -14,6 +14,7 @@ public class WorldManager : MonoBehaviour
     public Room _currentRoom;
 
     // UI references
+    public Image _timerClock;
     public Text _timerText;
     public GameObject _gameOverPanel;
 
@@ -26,7 +27,13 @@ public class WorldManager : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        _timerText.text = _currentRoom?.TimerReadout() ?? "No Timer";
+        UpdateTimerUI();
+    }
+
+    public void UpdateTimerUI()
+    {
+        _timerText.text = _currentRoom?.TimerReadout() ?? "--:--";
+        _timerClock.fillAmount = _currentRoom == null ? 1 : _currentRoom._remainingTime / _currentRoom._startingTime;
     }
 
     public void TimeOver(Room callingRoom)

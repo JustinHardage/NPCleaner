@@ -113,7 +113,7 @@ public class Room : MonoBehaviour
     public string TimerReadout()
     {
         if (_startingTime == 0f || _roomState == RoomState.SOLVED) {
-            return "--:--";
+            return "✔️";
         }
         else if (_remainingTime > 0f)
         {
