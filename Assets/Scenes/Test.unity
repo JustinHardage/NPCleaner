@@ -278,7 +278,7 @@ MonoBehaviour:
   _timerText: {fileID: 1062827759}
   _gameOverPanel: {fileID: 1248809975}
   _dialogPanel: {fileID: 549410613}
-  _dialogText: {fileID: 0}
+  _dialogText: {fileID: 646503166}
 --- !u!82 &93246251
 AudioSource:
   m_ObjectHideFlags: 0
@@ -864,7 +864,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &549410614
 RectTransform:
   m_ObjectHideFlags: 0
@@ -35366,6 +35366,7 @@ GameObject:
   - component: {fileID: 1882216055}
   - component: {fileID: 1882216057}
   - component: {fileID: 1882216058}
+  - component: {fileID: 1882216059}
   m_Layer: 8
   m_Name: NPC
   m_TagString: Untagged
@@ -35494,7 +35495,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a54f127974d4e5e468034647ae7abbd4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialog: '...'
+  dialog: 'NPC: Gil! Thank you for coming to clean up. That hero wrecked our library
+    again!'
+--- !u!58 &1882216059
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1882216053}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 1
 --- !u!1 &1941573722
 GameObject:
   m_ObjectHideFlags: 0

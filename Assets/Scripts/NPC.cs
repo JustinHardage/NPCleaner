@@ -6,20 +6,13 @@ public class NPC : MonoBehaviour
 {
     public string dialog = "...";
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        DialogPopUp();
+        WorldManager.Instance.TextPopUp(dialog);
     }
 
-    void DialogPopUp()
+    private void OnTriggerExit2D(Collider2D collision)
     {
-        // call whatever the UI thing is that we're using
-        // populate it with string
+        WorldManager.Instance.TextPopDown();
     }
 }
