@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class WorldManager : MonoBehaviour
 {
@@ -14,6 +15,7 @@ public class WorldManager : MonoBehaviour
 
     // UI references
     public Text _timerText;
+    public GameObject _gameOverPanel;
 
     // Start is called before the first frame update
     void Start()
@@ -31,6 +33,19 @@ public class WorldManager : MonoBehaviour
     {
         if (_currentRoom != callingRoom) { return; }
 
+        GameOver();
+    }
 
+    public void GameOver()
+    {
+        _gameOverPanel.SetActive(true);
+
+        StartCoroutine(GameOverDelay());
+    }
+
+    public IEnumerator GameOverDelay()
+    {
+        yield return new WaitForSeconds(2f);
+        SceneManager.LoadScene("Start");
     }
 }

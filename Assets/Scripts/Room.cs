@@ -48,6 +48,7 @@ public class Room : MonoBehaviour
         {
             // time up, end game? restart room?
             WorldManager.Instance.TimeOver(this);
+            Debug.Log("Time Over");
         }
     }
 
@@ -71,6 +72,16 @@ public class Room : MonoBehaviour
         {
             _remainingTime = _startingTime;
         }
+    }
+
+    public void LeaveRoom(Topdownmovement player)
+    {
+        SetRoomState(RoomState.SOLVED);
+        WorldManager.Instance._currentRoom = null;
+
+        if (player == null) { return; }
+
+        _vcam.Follow = player.transform;
     }
 
     void CloseExits()
@@ -102,11 +113,11 @@ public class Room : MonoBehaviour
     public string TimerReadout()
     {
         if (_startingTime == 0f || _roomState == RoomState.SOLVED) {
-            return "Solved";
+            return "--:--";
         }
         else if (_remainingTime > 0f)
         {
-            return _remainingTime.ToString("00");
+            return $"00:{_remainingTime.ToString("00")}";
         }
         else { return "oh nooo"; }
     }
@@ -124,11 +135,11 @@ public class Room : MonoBehaviour
     {
         var player = collider.gameObject.GetComponent<Topdownmovement>();
 
-        if (player == null) { return; }
+        
 
-        _vcam.Follow = player.transform;
+        LeaveRoom(player);
 
-        OpenExits();
+        OpenExits();    // just in case???
     }
 
 
