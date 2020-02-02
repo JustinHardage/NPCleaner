@@ -35,15 +35,15 @@ public class Topdownmovement : MonoBehaviour
 
 	public void Update()
 	{
-
-		if (Input.GetKey (KeyCode.Z)) 
+		//if (Input.GetKey (KeyCode.Z))
+        if (Input.GetButton("Grab"))
 		{
 			pushing = true;
 			grabbing = true;
-
 		} 
 
-		if (Input.GetKeyUp(KeyCode.Z))
+		//if (Input.GetKeyUp(KeyCode.Z))
+        if (Input.GetButtonUp("Grab"))
 		{
 			pushing = false;
 			grabbing = false;

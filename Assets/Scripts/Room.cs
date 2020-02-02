@@ -76,7 +76,7 @@ public class Room : MonoBehaviour
 
     public void LeaveRoom(Topdownmovement player)
     {
-        SetRoomState(RoomState.SOLVED);
+        //SetRoomState(RoomState.SOLVED);
         WorldManager.Instance._currentRoom = null;
 
         if (player == null) { return; }
@@ -112,8 +112,12 @@ public class Room : MonoBehaviour
 
     public string TimerReadout()
     {
-        if (_startingTime == 0f || _roomState == RoomState.SOLVED) {
+        if (_roomState == RoomState.SOLVED) {
             return "✔️";
+        }
+        else if (_startingTime == 0f)
+        {
+            return "?";
         }
         else if (_remainingTime > 0f)
         {
