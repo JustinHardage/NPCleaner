@@ -17,6 +17,8 @@ public class WorldManager : MonoBehaviour
     public Image _timerClock;
     public Text _timerText;
     public GameObject _gameOverPanel;
+    public GameObject _dialogPanel;
+    public Text _dialogText;
 
     // Start is called before the first frame update
     void Start()
@@ -54,5 +56,21 @@ public class WorldManager : MonoBehaviour
     {
         yield return new WaitForSeconds(2f);
         SceneManager.LoadScene("Start");
+    }
+
+    public void TextPopUp(string text)
+    {
+        _dialogText.text = text;
+        // shrink to zero-size
+        _dialogPanel.SetActive(true);
+        // animate popping up
+    }
+
+    public void TextPopDown()
+    {
+        _dialogText.text = "popped down";
+        // animate popping down
+        // set to zero-size
+        _dialogPanel.SetActive(false);
     }
 }

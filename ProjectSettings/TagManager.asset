@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Ground
   - Grabbable
+  - Door
   layers:
   - Default
   - TransparentFX
@@ -42,4 +43,13 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 831640919
+    locked: 0
+  - name: Terrain
+    uniqueID: 304989435
+    locked: 0
+  - name: Characters
+    uniqueID: 291144589
     locked: 0
