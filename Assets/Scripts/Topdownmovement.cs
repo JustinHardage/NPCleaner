@@ -16,7 +16,7 @@ public class Topdownmovement : MonoBehaviour
 	public bool holdingBlock;
 
 	public GameObject heldBlock;
-    
+
     void Start()
     {
         _animator = GetComponent<Animator>();

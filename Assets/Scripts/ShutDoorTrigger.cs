@@ -13,6 +13,7 @@ public class ShutDoorTrigger : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        var player = collision.GetComponent<Topdownmovement>();
         parentRoom.PlayerIsIn();
     }
 }
