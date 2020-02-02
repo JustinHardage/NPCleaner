@@ -18,17 +18,7 @@ public class ShutDoorTrigger : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Player"))
-        {
-            parentRoom.PlayerIsIn();
-            if (arrayLength > 0 && parentRoom._roomState != Room.RoomState.SOLVED)
-            {
-                for (int i = 0; i < arrayLength; i++)
-                {
-                    objects[i].transform.position = objLocations[i].transform.position;
-                    objects[i].GetComponent<Pots>().defaultState();
-                }
-            }
-        }
+        var player = collision.GetComponent<Topdownmovement>();
+        parentRoom.PlayerIsIn();
     }
 }
