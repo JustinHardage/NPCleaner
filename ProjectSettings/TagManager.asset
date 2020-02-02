@@ -12,6 +12,7 @@ TagManager:
   - StartTrigger
   - EndTrigger
   - waterEnd
+  - Terrain
   layers:
   - Default
   - TransparentFX
