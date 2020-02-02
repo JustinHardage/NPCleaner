@@ -274,6 +274,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _currentRoom: {fileID: 0}
+  _audioSource: {fileID: 93246251}
+  _doorClose: {fileID: 8300000, guid: 0eabdc053a833704e82cedd752500473, type: 3}
+  _doorOpen: {fileID: 8300000, guid: 73e8f0a536778da45a9d9545ee1df23f, type: 3}
+  _dialogUp: {fileID: 8300000, guid: 62357b267012e554c9ead4f44f5e2569, type: 3}
+  _dialogDown: {fileID: 8300000, guid: bd7f9cfe380c3fa4bb883c7d816ad25d, type: 3}
   _timerClock: {fileID: 142589123}
   _timerText: {fileID: 1062827759}
   _gameOverPanel: {fileID: 1248809975}
@@ -709,8 +714,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 304989435
+  m_SortingLayer: 2
   m_SortingOrder: 4
   m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

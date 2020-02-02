@@ -89,6 +89,7 @@ public class Room : MonoBehaviour
         if (_doorsClosed) { return; }
 
         _doorsClosed = true;
+        WorldManager.Instance.PlayCloseDoorSound();
         foreach (var door in _doors) { door.gameObject.SetActive(true); }
     }
 
@@ -97,6 +98,7 @@ public class Room : MonoBehaviour
         if (!_doorsClosed) { return; }
 
         _doorsClosed = false;
+        WorldManager.Instance.PlayOpenDoorSound();
         foreach (var door in _doors) { door.gameObject.SetActive(false); }
     }
 
