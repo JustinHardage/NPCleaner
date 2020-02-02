@@ -3,7 +3,16 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Ground
+  - Grabbable
+  - Door
+  - Pushable
+  - Water
+  - StartTrigger
+  - EndTrigger
+  - waterEnd
+  - Terrain
   layers:
   - Default
   - TransparentFX
@@ -13,16 +22,16 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Room
+  - Player
+  - Terrain
+  - bridge
+  - water
+  - floating
+  - waterTrigger
+  - waterEnd
+  - Bookshelf
+  - Button
   - 
   - 
   - 
