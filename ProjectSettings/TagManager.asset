@@ -3,19 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - Ground
-  - Grabbable
-  - Door
-<<<<<<< HEAD
-=======
-  - Pushable
-  - Water
-  - StartTrigger
-  - EndTrigger
-  - waterEnd
-  - Terrain
->>>>>>> 9b7594f23db835d61a4158b94481083ab3860154
+  tags: []
   layers:
   - Default
   - TransparentFX
@@ -25,16 +13,16 @@ TagManager:
   - UI
   - 
   - 
-  - Room
-  - Player
-  - Terrain
-  - bridge
-  - water
-  - floating
-  - waterTrigger
-  - waterEnd
-  - Bookshelf
-  - Button
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
@@ -52,13 +40,4 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: Background
-    uniqueID: 831640919
-    locked: 0
-  - name: Terrain
-    uniqueID: 304989435
-    locked: 0
-  - name: Characters
-    uniqueID: 291144589
     locked: 0
