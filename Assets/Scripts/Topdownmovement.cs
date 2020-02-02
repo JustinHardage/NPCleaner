@@ -5,6 +5,7 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D))]
 public class Topdownmovement : MonoBehaviour
 {
+    public Animator _animator;
 	public GameObject[] items;
     public Rigidbody2D rb2d;
 	private float baseSpeed;
@@ -16,18 +17,20 @@ public class Topdownmovement : MonoBehaviour
 
 	public GameObject heldBlock;
     
-    // Use this for initialization
     void Start()
     {
+        _animator = GetComponent<Animator>();
 		baseSpeed = speed;
 		//heldBlock = null;
     }
 
-    // Update is called once per frame
     void FixedUpdate()
     {
-        Vector2 targetVel = (new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")));
+        Vector2 targetVel = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
         rb2d.velocity = targetVel * speed * Time.deltaTime;
+        _animator.SetFloat("speedX", targetVel.x);
+        _animator.SetFloat("speedY", targetVel.y);
+        _animator.SetBool("moving", targetVel.magnitude > 0.01f);
     }
 
 	public void Update()

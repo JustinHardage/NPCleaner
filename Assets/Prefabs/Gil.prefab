@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3802528061642352386}
   - component: {fileID: 3802528061642352415}
   - component: {fileID: 643660307}
+  - component: {fileID: 131777819649682400}
   m_Layer: 0
   m_Name: Gil
   m_TagString: Untagged
@@ -67,8 +68,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aad435b1aea714041adf25302405074c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  items: []
   rb2d: {fileID: 3802528061642352413}
   speed: 300
+  pushing: 0
+  grabbing: 0
+  holdingBlock: 0
+  heldBlock: {fileID: 0}
 --- !u!212 &3802528061642352415
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -144,3 +150,22 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.66875446, y: 0.73923254}
   m_EdgeRadius: 0
+--- !u!95 &131777819649682400
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3802528061642352387}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 116586be7f0019b48af2a9061f0dd488, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
