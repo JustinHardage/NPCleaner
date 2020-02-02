@@ -7,6 +7,15 @@ TagManager:
   - Ground
   - Grabbable
   - Door
+<<<<<<< HEAD
+=======
+  - Pushable
+  - Water
+  - StartTrigger
+  - EndTrigger
+  - waterEnd
+  - Terrain
+>>>>>>> 9b7594f23db835d61a4158b94481083ab3860154
   layers:
   - Default
   - TransparentFX
