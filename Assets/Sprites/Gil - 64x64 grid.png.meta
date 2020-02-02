@@ -1,0 +1,919 @@
+fileFormatVersion: 2
+guid: f4dd884e202b2b14e9e9469b928a2071
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2130612814654440430
+    second: Gil - 64x64 grid_0
+  - first:
+      213: 472379692800057353
+    second: Gil - 64x64 grid_1
+  - first:
+      213: -156710543749811085
+    second: Gil - 64x64 grid_2
+  - first:
+      213: 5145064279695904043
+    second: Gil - 64x64 grid_3
+  - first:
+      213: -43586917098128479
+    second: Gil - 64x64 grid_4
+  - first:
+      213: 4145419363544517920
+    second: Gil - 64x64 grid_5
+  - first:
+      213: 8885500028289171487
+    second: Gil - 64x64 grid_6
+  - first:
+      213: 8341165219002650064
+    second: Gil - 64x64 grid_7
+  - first:
+      213: -1548447553964207089
+    second: Gil - 64x64 grid_8
+  - first:
+      213: -8108878123023443368
+    second: Gil - 64x64 grid_9
+  - first:
+      213: -9109143699837014889
+    second: Gil - 64x64 grid_10
+  - first:
+      213: 7798970646560541672
+    second: Gil - 64x64 grid_11
+  - first:
+      213: -4957573019401818208
+    second: Gil - 64x64 grid_12
+  - first:
+      213: 2314183220553340453
+    second: Gil - 64x64 grid_13
+  - first:
+      213: -710631314997647529
+    second: Gil - 64x64 grid_14
+  - first:
+      213: 2775901263983003905
+    second: Gil - 64x64 grid_15
+  - first:
+      213: 4329452091767061324
+    second: Gil - 64x64 grid_16
+  - first:
+      213: 4898812238796895003
+    second: Gil - 64x64 grid_17
+  - first:
+      213: 5144242682263385516
+    second: Gil - 64x64 grid_18
+  - first:
+      213: -1726293844717793220
+    second: Gil - 64x64 grid_19
+  - first:
+      213: 1032355773789478968
+    second: Gil - 64x64 grid_20
+  - first:
+      213: 5537442151727198118
+    second: Gil - 64x64 grid_21
+  - first:
+      213: -3976285435822375277
+    second: Gil - 64x64 grid_22
+  - first:
+      213: -7736896134186869127
+    second: Gil - 64x64 grid_23
+  - first:
+      213: 914588312655963737
+    second: Gil - 64x64 grid_24
+  - first:
+      213: -4098393447361583920
+    second: Gil - 64x64 grid_25
+  - first:
+      213: -7975104858221773467
+    second: Gil - 64x64 grid_26
+  - first:
+      213: -2148529450749616691
+    second: Gil - 64x64 grid_27
+  - first:
+      213: 4656942160071903642
+    second: Gil - 64x64 grid_28
+  - first:
+      213: 5986745738543993197
+    second: Gil - 64x64 grid_29
+  - first:
+      213: 1607694910018200799
+    second: Gil - 64x64 grid_30
+  - first:
+      213: -6331000259895498874
+    second: Gil - 64x64 grid_31
+  - first:
+      213: -6862134403099206732
+    second: Gil - 64x64 grid_32
+  - first:
+      213: 3175693734810739552
+    second: Gil - 64x64 grid_33
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Gil - 64x64 grid_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 905
+        width: 61
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e54bd27b6095d24cac125a176e60d42
+      internalID: 2130612814654440430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gil - 64x64 grid_1
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 911
+        width: 53
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edc842e327a42a94dbbe7e6ccf3114e5
+      internalID: 472379692800057353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gil - 64x64 grid_2
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 910
+        width: 59
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75b559b636b710244a0f67d604f6ae56
+      internalID: -156710543749811085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gil - 64x64 grid_3
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 910
+        width: 53
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d993aab93e717e541922e2874ee3af97
+      internalID: 5145064279695904043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gil - 64x64 grid_4
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 910
+        width: 61
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4de106b653cef946874aad042e6db12
+      internalID: -43586917098128479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gil - 64x64 grid_5
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 911
+        width: 53
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad8cdb76f98a11a4790dc9d0b5c63264
+      internalID: 4145419363544517920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gil - 64x64 grid_6
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 911
+        width: 59
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89f71740a150f0d4ba2447290981a052
+      internalID: 8885500028289171487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gil - 64x64 grid_7
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 912
+        width: 56
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37ff3f524824fa34d9bb3c9d69a5d748
+      internalID: 8341165219002650064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gil - 64x64 grid_8
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 781
+        width: 51
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c74522b8235681e42ad2f1596803b24b
+      internalID: -1548447553964207089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gil - 64x64 grid_9
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 781
+        width: 52
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce9809ecd1d280d4aa29cd38324d6ce4
+      internalID: -8108878123023443368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gil - 64x64 grid_10
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 782
+        width: 51
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fa04b83ca5d03a44b3b8cbf8ca76355
+      internalID: -9109143699837014889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gil - 64x64 grid_11
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 779
+        width: 55
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f329d0c176639c143be4b1cad1240a14
+      internalID: 7798970646560541672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gil - 64x64 grid_12
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 786
+        width: 56
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da9ac60840cffe249a22475962547254
+      internalID: -4957573019401818208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gil - 64x64 grid_13
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 784
+        width: 53
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c9fc4123bbce3c4c86c0ef9202ce100
+      internalID: 2314183220553340453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gil - 64x64 grid_14
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 788
+        width: 51
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24eaf1b8ad479ae46bea15dc9e84b857
+      internalID: -710631314997647529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gil - 64x64 grid_15
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 782
+        width: 57
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2095014bf6bfb5748adf657324a4ac6d
+      internalID: 2775901263983003905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gil - 64x64 grid_16
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 652
+        width: 56
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adb183bbf0afe24419358a5b1ffa8d36
+      internalID: 4329452091767061324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gil - 64x64 grid_17
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 654
+        width: 55
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9fa81d68824f5540a3b27b5f0962ed6
+      internalID: 4898812238796895003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gil - 64x64 grid_18
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 652
+        width: 56
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b35204d6c4d14844ac0eeb2573d5a87
+      internalID: 5144242682263385516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gil - 64x64 grid_19
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 654
+        width: 55
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33d28d04d4812c44fb6c792efffa22d5
+      internalID: -1726293844717793220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gil - 64x64 grid_20
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 659
+        width: 59
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82058ac2bffbab246b4288bbb32419ab
+      internalID: 1032355773789478968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gil - 64x64 grid_21
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 658
+        width: 55
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9aa7476a5fa6b3448e6e7bb2f949f35
+      internalID: 5537442151727198118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gil - 64x64 grid_22
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 659
+        width: 56
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bf93d8125377e1478e81dc0ebf36d77
+      internalID: -3976285435822375277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gil - 64x64 grid_23
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 658
+        width: 55
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37eff88f55456e7419f8ab444fd20355
+      internalID: -7736896134186869127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gil - 64x64 grid_24
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 523
+        width: 55
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb6e66d7c32707b48a64f1946384697d
+      internalID: 914588312655963737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gil - 64x64 grid_25
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 524
+        width: 53
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a67cf0f1c0d9170469673d80d71ae4cb
+      internalID: -4098393447361583920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gil - 64x64 grid_26
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 525
+        width: 57
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bbe7d4577948af4cbfaf6afc9b71b7c
+      internalID: -7975104858221773467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gil - 64x64 grid_27
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 526
+        width: 51
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 843c3ed02f4290b4da5b6df484728ae9
+      internalID: -2148529450749616691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gil - 64x64 grid_28
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 528
+        width: 58
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bf4aa1a85c800c418c51e906afd44de
+      internalID: 4656942160071903642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gil - 64x64 grid_29
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 534
+        width: 55
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ad5bdee10587f04c97da9ecddf5ea54
+      internalID: 5986745738543993197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gil - 64x64 grid_30
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 533
+        width: 58
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0026cd1184df8947b6f3abb9c7a328e
+      internalID: 1607694910018200799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gil - 64x64 grid_31
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 538
+        width: 57
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7beeec11864970e41bfb68047898058b
+      internalID: -6331000259895498874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gil - 64x64 grid_32
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 137
+        width: 56
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e33d2a4007313b144a54e0d8797be51c
+      internalID: -6862134403099206732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gil - 64x64 grid_33
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 14
+        width: 57
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3c38e1db82e5f34c97643534d76144d
+      internalID: 3175693734810739552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

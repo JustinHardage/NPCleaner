@@ -12,17 +12,18 @@ public class WorldManager : MonoBehaviour
 
     // inspector references
     public Room _currentRoom;
+    public AudioSource _audioSource;
+    public AudioClip _doorClose;
+    public AudioClip _doorOpen;
+    public AudioClip _dialogUp;
+    public AudioClip _dialogDown;
 
     // UI references
     public Image _timerClock;
     public Text _timerText;
     public GameObject _gameOverPanel;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public GameObject _dialogPanel;
+    public Text _dialogText;
 
     // Update is called once per frame
     void FixedUpdate()
@@ -54,5 +55,33 @@ public class WorldManager : MonoBehaviour
     {
         yield return new WaitForSeconds(2f);
         SceneManager.LoadScene("Start");
+    }
+
+    public void TextPopUp(string text)
+    {
+        _dialogText.text = text;
+        // shrink to zero-size
+        _audioSource.PlayOneShot(_dialogUp);
+        _dialogPanel.SetActive(true);
+        // animate popping up
+    }
+
+    public void TextPopDown()
+    {
+        _dialogText.text = "popped down";
+        // animate popping down
+        // set to zero-size
+        _dialogPanel.SetActive(false);
+        _audioSource.PlayOneShot(_dialogDown);
+    }
+
+    public void PlayCloseDoorSound()
+    {
+        _audioSource.PlayOneShot(_doorClose);
+    }
+
+    public void PlayOpenDoorSound()
+    {
+        _audioSource.PlayOneShot(_doorOpen);
     }
 }
